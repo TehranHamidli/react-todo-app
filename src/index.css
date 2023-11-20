@@ -28,7 +28,7 @@ body {
 }
 
 .todoApp input {
-  width: 80%;
+  width: 70%;
   padding: 0.5rem 1rem;
 }
 
@@ -44,13 +44,24 @@ body {
   cursor: pointer;
 }
 
-.todoList .deleteBtn {
+.todoList .deleteBtn,.editBtn {
   padding: 0.5rem;
   background-color: rgb(136, 55, 160);
   color: aliceblue;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 1rem;
+}
+
+.saveBtn{
+  padding: 0.5rem;
+  background-color: rgb(55, 160, 55);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 1rem;
 }
 
 .todoList {
